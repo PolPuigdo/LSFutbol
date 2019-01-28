@@ -21,6 +21,6 @@
         </div>
     </form>
     <form method="get" action="/">
-        <button type="submit" class="btn btn-success">Tornar</button>
+        <button type="submit" class="btn btn-success">Volver</button>
     </form>
 @endsection

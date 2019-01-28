@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 @endsection
 @section('content')
-    <h3>Competicions</h3>
+    <h3>Competiciones:</h3>
 	<table class="table">
 	  <thead>
 		<tr>
@@ -33,6 +33,6 @@
 	  </tbody>
 	</table>
 	<form method="get" action="/">
-		<button type="submit" class="btn btn-success">Tornar</button>
+		<button type="submit" class="btn btn-success">Volver</button>
 	</form>
 @endsection
