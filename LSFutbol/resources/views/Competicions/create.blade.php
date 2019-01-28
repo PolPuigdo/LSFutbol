@@ -15,12 +15,12 @@
             <select name="competicio">
                 <option>Champions</option>
                 <option>Lliga</option>
-                <option>Copa del Gei</option>
+                <option>Copa del Rey</option>
             </select>
-            <input type="submit" class="btn btn-primary" value="Crear" name="insert">
+            <input type="submit" class="btn btn-success" value="Crear" name="insert">
         </div>
     </form>
     <form method="get" action="/">
-        <button type="submit" class="btn btn-primary">Tornar</button>
+        <button type="submit" class="btn btn-success">Tornar</button>
     </form>
 @endsection

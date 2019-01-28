@@ -10,7 +10,7 @@
 	<form method="post" action="/Competicions/{{$tarea->IDpartit}}">
 		@csrf
 		@method('delete')
-		<button type="submit" class="btn btn-primary">Eliminar</button>
+		<button type="submit" class="btn btn-success">Eliminar</button>
 	</form>
 	@endforeach
 @endsection

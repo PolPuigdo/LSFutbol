@@ -9,8 +9,8 @@
 	<p>{{$tarea->competicio}}</p>
 	<form method="post" action="/Compe/update">
 		@csrf
-		<input type="text" class="btn btn-primary" name="competicio" id="titulo" placeholder="Introduce un titulo para cambiarlo...">
-		<button type="submit" class="btn btn-primary">Actualitzar</button>
+		<input type="text" class="btn btn-success" name="competicio" id="titulo" placeholder="Introduce un titulo para cambiarlo...">
+		<button type="submit" class="btn btn-success">Actualitzar</button>
 	</form>
 	@endforeach
 @endsection

@@ -8,7 +8,7 @@
 </body>
 <footer style="align-items: flex-end !important;">
 	<table class="table">
-	  <thead class="thead-dark">
+	  <thead class="thead-ligth">
 		<tr>
 		  <th scope="col">Pol Puigdomenech</th>
 		  <th scope="col">pol.puigdomenech.r@gmail.com</th>
