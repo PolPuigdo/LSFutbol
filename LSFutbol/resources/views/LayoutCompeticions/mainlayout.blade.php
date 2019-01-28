@@ -10,16 +10,12 @@
 	<table class="table">
 	  <thead class="thead-dark">
 		<tr>
-		  <th scope="col">Dragomir</th>
-		  <th scope="col">Galinov</th>
-		  <th scope="col">d.galinov.d.salle@gmail.com</th>
-		  <th scope="col"><?php echo date("D M d");?></th>
+		  <th scope="col">Pol Puigdomenech</th>
+		  <th scope="col">pol.puigdomenech.r@gmail.com</th>
 		</tr>
 		<tr>
-		  <th scope="col">Renzo</th>
-		  <th scope="col">Luna</th>
-		  <th scope="col">renzo.luna.liendo@gmail.com</th>
-		  <th scope="col"><?php echo date("D M d");?></th>
+		  <th scope="col">Eduardo Mejia</th>
+		  <th scope="col">a15edumejcab@iam.cat</th>
 		</tr>
 	  </thead>
 	</table>
