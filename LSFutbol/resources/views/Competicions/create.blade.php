@@ -9,9 +9,9 @@
     <form method="get" action="/compe/create">
         @csrf
         <div class="form-group">
-            <input type="text" class="form-control" name="temporada" placeholder="Introdueix temporada...">
-            <input type="text" class="form-control" name="golslocal" placeholder="Introdueix gols local...">
-            <input type="text" class="form-control" name="golsvisitant" placeholder="Introdueix gols visitant...">
+            <input type="text" class="form-control" name="temporada" placeholder="Numero de temporada ...">
+            <input type="text" class="form-control" name="golslocal" placeholder="Cantidad de goles del local">
+            <input type="text" class="form-control" name="golsvisitant" placeholder="Cantidad de goles del visitante">
             <select name="competicio">
                 <option>Champions</option>
                 <option>Lliga</option>

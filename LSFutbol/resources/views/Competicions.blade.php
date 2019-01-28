@@ -14,7 +14,7 @@
 		<button type="submit" class="btn btn-success" name="lliga" value="Lliga">Liga</button>
 	</form>
 	<form method="get" action="/compe">
-		<button type="submit" class="btn btn-success" name="copadelrei" value="Copa del Rei">Copa del Rey</button>
+		<button type="submit" class="btn btn-success" name="copadelrei" value="Copa del Rey">Copa del Rey</button>
 	</form>
 	<form method="get" action="/create">
 		<input type="submit" class="btn btn-success" id="create" name="create" value="Create" style="margin-right:10px">

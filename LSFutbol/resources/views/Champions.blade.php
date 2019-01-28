@@ -10,11 +10,11 @@
 	  <thead>
 		<tr>
 		  <th scope="col">#</th>
-		  <th scope="col">Equip - 1</th>
-		  <th scope="col">Gols Equip - 1</th>
-		  <th scope="col">Equip - 2</th>
-		  <th scope="col">Gols Equip - 2</th>
-		  <th scope="col">Competició</th>
+		  <th scope="col">Equipo #1</th>
+		  <th scope="col">Goles Equipo #1</th>
+		  <th scope="col">Equipo #2</th>
+		  <th scope="col">Goles Equipo #2</th>
+		  <th scope="col">Competición</th>
 		  <th scope="col">Temporada</th>
 		</tr>
 	  </thead>
