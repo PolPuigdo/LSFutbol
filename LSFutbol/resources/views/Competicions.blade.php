@@ -7,8 +7,7 @@
 @section('content')
     <h3>Competiciones</h3>
 	<p>Que quieres hacer? </p>
-	<div class="container">
-  		<div class="row">
+	<div class="container row">
 		<form method="get" action="/compe">
 			<button type="submit" class="btn btn-success" name="champions" value="Champ">Champions</button>
 			<br> 
@@ -22,10 +21,8 @@
 			<br> 
 		</form>
 	</div>
-	</div>
 
-	<div class="container">
-  <div class="row">
+	<div class="container row">
 	<form method="get" action="/create">
 		<input type="submit" class="btn btn-success" id="create" name="create" value="Create" style="margin-right:10px">
 	</form>
@@ -35,7 +32,7 @@
 	<form method="get" action="/Compe/update">
 		<input type="submit" class="btn btn-success" id="update" name="update" value="Update" style="margin-right:10px">
 	</form>
-	</div>
+	
 </div>
 	
 @endsection

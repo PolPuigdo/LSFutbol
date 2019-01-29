@@ -10,7 +10,7 @@
 	<table class="table">
 	  <thead>
 		<tr>
-		  <th scope="col">#</th>
+		  <th scope="col">Id</th>
 		  <th scope="col">Equipo #1</th>
 		  <th scope="col">Goles Equipo #1</th>
 		  <th scope="col">Equipo #2</th>

@@ -6,21 +6,25 @@
 @endsection
 @section('content')
     <h1>Crear</h1>
-    <form method="get" action="/compe/create">
-        @csrf
-        <div class="form-group">
-            <input type="text" class="form-control" name="temporada" placeholder="Numero de temporada ...">
-            <input type="text" class="form-control" name="golslocal" placeholder="Cantidad de goles del local">
-            <input type="text" class="form-control" name="golsvisitant" placeholder="Cantidad de goles del visitante">
-            <select name="competicio">
-                <option>Champions</option>
-                <option>Lliga</option>
-                <option>Copa del Rey</option>
-            </select>
-            <input type="submit" class="btn btn-success" value="Crear" name="insert">
+<div class="container row">
         </div>
-    </form>
-    <form method="get" action="/">
+        <div>
+            <form action="/compe/create" method='GET'>
+                <div class="col-md-9">
+                    <input type="text" name='temporada' class='form-control' placeholder="temporada">
+                    <input type="text" name='competicio' class='form-control' placeholder="competicio">
+                    <input type="text" name='golslocal' class='form-control' placeholder="golslocal">
+                    <input type="text" name='golsvisitant' class='form-control' placeholder="golsvisitant">
+                    <input type="text" name='id_equip_local' class='form-control' placeholder="id equip local">
+                    <input type="text" name='id_equip_visitant' class='form-control' placeholder="id equip visitant">
+                </div>
+                <div>
+                    <br>
+                    <input type="submit" class='btn btn-success' value='Añadir partido'>
+                </div>
+            </form>
+            <form method="get" action="/">
         <button type="submit" class="btn btn-success">Volver</button>
-    </form>
+    </form> 
+</div>
 @endsection

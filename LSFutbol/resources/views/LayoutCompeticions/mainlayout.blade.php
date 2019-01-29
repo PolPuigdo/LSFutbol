@@ -6,7 +6,7 @@
 <body>
     @yield('content')
 </body>
-<footer style="align-items: flex-end !important;">
+<footer>
 	<table class="table">
 	  <thead class="thead-ligth">
 		<tr>
