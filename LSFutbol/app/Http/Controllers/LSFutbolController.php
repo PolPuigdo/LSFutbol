@@ -21,10 +21,10 @@ class LSFutbolController extends Controller
             $listaCompeticions = Partit::all()->where('competicio', 'Champions');
             return view('Champions', compact('listaCompeticions'));
         } else if (!empty($_GET['lliga'])) {
-            $listaCompeticions = Partit::all()->where('competicio', 'Lliga');
+            $listaCompeticions = Partit::all()->where('competicio', 'Liga');
             return view('Champions', compact('listaCompeticions'));
         } else if (!empty($_GET['copadelrei'])) {
-            $listaCompeticions = Partit::all()->where('competicio', 'Copa del Rei');
+            $listaCompeticions = Partit::all()->where('competicio', 'Copa del Rey');
             return view('Champions', compact('listaCompeticions'));
         } else {
             echo "No esta disponible esta opcion";

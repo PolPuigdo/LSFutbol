@@ -7,15 +7,25 @@
 @section('content')
     <h3>Competiciones</h3>
 	<p>Que quieres hacer? </p>
-	<form method="get" action="/compe">
-		<button type="submit" class="btn btn-success" name="champions" value="Champ">Champions</button>
-	</form>
-	<form method="get" action="/compe">
-		<button type="submit" class="btn btn-success" name="lliga" value="Lliga">Liga</button>
-	</form>
-	<form method="get" action="/compe">
-		<button type="submit" class="btn btn-success" name="copadelrei" value="Copa del Rey">Copa del Rey</button>
-	</form>
+	<div class="container">
+  		<div class="row">
+		<form method="get" action="/compe">
+			<button type="submit" class="btn btn-success" name="champions" value="Champ">Champions</button>
+			<br> 
+		</form>
+		<form method="get" action="/compe">
+			<button type="submit" class="btn btn-success" name="lliga" value="Lliga">Liga</button>
+			<br> 
+		</form>
+		<form method="get" action="/compe">
+			<button type="submit" class="btn btn-success" name="copadelrei" value="Copa del Rey">Copa del Rey</button>
+			<br> 
+		</form>
+	</div>
+	</div>
+
+	<div class="container">
+  <div class="row">
 	<form method="get" action="/create">
 		<input type="submit" class="btn btn-success" id="create" name="create" value="Create" style="margin-right:10px">
 	</form>
@@ -25,4 +35,7 @@
 	<form method="get" action="/Compe/update">
 		<input type="submit" class="btn btn-success" id="update" name="update" value="Update" style="margin-right:10px">
 	</form>
+	</div>
+</div>
+	
 @endsection
